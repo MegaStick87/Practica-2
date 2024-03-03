@@ -1,0 +1,81 @@
+<!-- Practica 2 -->
+
+<!DOCTYPE HTML>
+<!-- Esta línea declara el tipo de documento y la versión de HTML, en este caso HTML5. Es importante porque le dice al navegador cómo interpretar el documento. -->
+
+<html>
+<!-- Esta etiqueta abre el documento HTML. Todo el contenido de tu página web debe estar dentro de las etiquetas <html>...</html>. -->
+
+<head>
+<!-- La sección <head> contiene información meta sobre el documento, como su título y enlaces a hojas de estilo. -->
+    <title>Test - Formulario</title>
+    <!-- La etiqueta <title> establece el título de la página, que aparece en la pestaña del navegador. -->
+
+    <link rel="icon" type="image/png" href="img/form.png">
+    <!-- La etiqueta <link> aquí se utiliza para definir un favicon (icono de la pestaña del navegador) para la página. -->
+
+    <meta charset="UTF-8">
+    <!-- Esta etiqueta <meta> especifica la codificación de caracteres del documento, en este caso, UTF-8, 
+        que incluye la mayoría de los caracteres de todos los idiomas. -->
+
+</head>
+
+<body>
+    <h1 title="Encabezado 1">Tarántulas</h1>
+    <!-- La etiqueta <h1> define un encabezado de nivel 1, que es el más importante en la jerarquía de la página. El atributo 'title' proporciona información 
+        adicional cuando se pasa el mouse sobre el texto. -->
+
+    <h2 title="Encabezado 2">Encabezado lvl2</h2>
+    <!-- La etiqueta <h2> define un encabezado de nivel 2, que es menos importante que <h1> en la jerarquía de la página. -->
+
+    <p title="Parrafo_1">Los terafósidos son una familia de arañas migalomorfas propias de los países tropicales.</p>
+    <!-- La etiqueta <p> se utiliza para párrafos de texto. El atributo 'title' también se aplica aquí para proporcionar información adicional. -->
+
+    <a href="https://www.youtube.com/watch?v=BKEV_BXMu18&ab_channel=NationalGeographicLatinoam%C3%A9rica">Enlace a vídeo interesante</a>
+    <!-- La etiqueta <a> crea un enlace. En este caso, a un video en YouTube. -->
+
+    <ul>
+        <li title="elemento2">Elemento de lista no ordenada</li>
+        <li title="elemento6">Otro elemento</li>
+        <li title="elemento4">Muchos elementos xd</li>
+    </ul>
+    <!-- <ul> define una lista no ordenada. Cada <li> es un elemento de la lista. El atributo 'title' proporciona información adicional sobre cada elemento. -->
+
+    <ol>
+        <li title="Elem1">Elemento 1</li>
+        <li title="Elem2">Elemento 2</li>
+        <li title="Elem3">Elemento 3</li>
+    </ol>
+    <!-- <ol> define una lista ordenada. Similar a <ul>, pero los elementos se muestran con números. -->
+
+    <!-- Imágenes-->
+
+    <img
+        src="/img/tarantula.jpg"
+        alt="Imagen no encontrada pa."
+        title="Imagen_perris"
+        style="width: 50%; height: 50%"
+    />
+    <!-- La etiqueta <img> se utiliza para insertar imágenes. 'src' es la ruta de la imagen, 'alt' es el texto alternativo si la imagen no se carga, 'title' proporciona información adicional, y 'style' se usa para CSS inline. -->
+
+    <!--Formulario chido-->
+    <br>
+    <label>Nombre de usuario: </label>
+    <input type="text" title="txt_user"/>
+    <br><br>
+
+    <label>Correo Eléctronico: </label>
+    <input type="text" title="txt_correo"/>
+    <br><br>
+
+    <label>Dirección (calle, número, colonia, municipio, alcaldia, ciudad, país) </label>
+    <input type="text" title="txt_dir"/>
+    <br><br>
+
+    <button type="submit">Registrar información</button>
+    <!-- Este bloque define un formulario con etiquetas <label> para describir los campos de entrada (<input>). El botón <button> se utiliza para enviar el formulario. -->
+
+</body>
+<!-- Esta etiqueta cierra el <body>, que es donde termina el contenido visible de la página. -->
+</html>
+<!-- Esta etiqueta cierra el documento HTML. -->
